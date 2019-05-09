@@ -1,0 +1,13 @@
+Source: ros-dashing-rqt-msg
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-dashing-ament-cmake, ros-dashing-ros-workspace
+Homepage: http://wiki.ros.org/rqt_msg
+Standards-Version: 3.9.2
+
+Package: ros-dashing-rqt-msg
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-catkin-pkg-modules, ros-dashing-python-qt-binding (>= 0.2.19), ros-dashing-rclpy, ros-dashing-rqt-console, ros-dashing-rqt-gui, ros-dashing-rqt-gui-py, ros-dashing-rqt-py-common, ros-dashing-ros-workspace
+Description: A Python GUI plugin for introspecting available ROS message types.
+ Note that the msgs available through this plugin is the ones that are stored on your machine, not on the ROS core your rqt instance connects to.
