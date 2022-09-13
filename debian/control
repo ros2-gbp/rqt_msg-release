@@ -1,0 +1,13 @@
+Source: ros-galactic-rqt-msg
+Section: misc
+Priority: optional
+Maintainer: Audrow Nash <audrow@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-galactic-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://wiki.ros.org/rqt_msg
+Standards-Version: 3.9.2
+
+Package: ros-galactic-rqt-msg
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-catkin-pkg-modules, ros-galactic-python-qt-binding (>= 0.2.19), ros-galactic-rclpy, ros-galactic-rqt-console, ros-galactic-rqt-gui, ros-galactic-rqt-gui-py, ros-galactic-rqt-py-common, ros-galactic-ros-workspace
+Description: A Python GUI plugin for introspecting available ROS message types.
+ Note that the msgs available through this plugin is the ones that are stored on your machine, not on the ROS core your rqt instance connects to.
