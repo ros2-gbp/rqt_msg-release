@@ -2,13 +2,10 @@
 Changelog for package rqt_msg
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.3.1 (2023-02-14)
+1.1.1 (2023-03-16)
 ------------------
-* [rolling] Update maintainers - 2022-11-07 (`#17 <https://github.com/ros-visualization/rqt_msg/issues/17>`_)
+* Mirror rolling to foxy-devel
 * Contributors: Audrow Nash
-
-1.3.0 (2022-09-13)
-------------------
 
 1.1.0 (2022-05-10)
 ------------------
