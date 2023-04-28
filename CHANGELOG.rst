@@ -2,6 +2,9 @@
 Changelog for package rqt_msg
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.4.0 (2023-04-28)
+------------------
+
 1.3.1 (2023-02-14)
 ------------------
 * [rolling] Update maintainers - 2022-11-07 (`#17 <https://github.com/ros-visualization/rqt_msg/issues/17>`_)
