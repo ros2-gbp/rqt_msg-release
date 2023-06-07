@@ -4,7 +4,7 @@ package_name = 'rqt_msg'
 
 setup(
     name=package_name,
-    version='1.4.0',
+    version='1.5.0',
     packages=[package_name],
     package_dir={'': 'src'},
     data_files=[
@@ -28,11 +28,10 @@ setup(
         'Topic :: Software Development',
     ],
     description=(
-        'A Python GUI plugin for introspecting available ROS message types.' +
-        'Note that the msgs available through this plugin is the ones that are stored ' +
-        'on your machine, not on the ROS core your rqt instance connects to.'
+        'A Python GUI plugin for introspecting available ROS message types.'
     ),
     license='BSD',
+    tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             'rqt_msg = ' + package_name + '.main:main',
