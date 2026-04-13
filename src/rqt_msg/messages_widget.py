@@ -34,16 +34,12 @@ import os
 
 from ament_index_python.resources import get_resource
 
-from packaging.version import Version
-from python_qt_binding import loadUi, QT_BINDING_VERSION
+from python_qt_binding import loadUi
 from python_qt_binding.QtCore import Qt
 from python_qt_binding.QtGui import QIcon
-if Version(QT_BINDING_VERSION) >= Version('6.0.0'):
-    from python_qt_binding.QtGui import QAction
-else:
-    from python_qt_binding.QtWidgets import QAction
-from python_qt_binding.QtWidgets import (QMenu,
+from python_qt_binding.QtWidgets import (QAction, QMenu,
                                          QTreeView, QWidget)
+
 from rclpy import logging
 
 from rosidl_runtime_py import get_action_interfaces, get_message_interfaces, get_service_interfaces
@@ -96,10 +92,7 @@ class MessagesWidget(QWidget):
         self._add_button.clicked.connect(self._add_message)
         self._refresh_packages(mode)
         self._refresh_msgs(self._package_combo.itemText(0))
-        if Version(QT_BINDING_VERSION) >= Version('6.0.0'):
-            self._package_combo.currentTextChanged.connect(self._refresh_msgs)
-        else:
-            self._package_combo.currentIndexChanged[str].connect(self._refresh_msgs)
+        self._package_combo.currentIndexChanged[str].connect(self._refresh_msgs)
         self._messages_tree.mousePressEvent = self._handle_mouse_press
 
         self._browsers = []
@@ -193,8 +186,8 @@ class MessagesWidget(QWidget):
 
     def _handle_mouse_press(self, event,
                             old_pressEvent=QTreeView.mousePressEvent):
-        if (event.buttons() & Qt.MouseButton.RightButton and
-                event.modifiers() == Qt.KeyboardModifier.NoModifier):
+        if (event.buttons() & Qt.RightButton and
+                event.modifiers() == Qt.NoModifier):
             self._rightclick_menu(event)
             event.accept()
         return old_pressEvent(self._messages_tree, event)
@@ -215,10 +208,7 @@ class MessagesWidget(QWidget):
         remove_action = QAction(self.tr('Remove message'), menu)
         menu.addAction(remove_action)
 
-        if Version(QT_BINDING_VERSION) >= Version('6.0.0'):
-            action = menu.exec(event.globalPosition().toPoint())
-        else:
-            action = menu.exec(event.globalPos())
+        action = menu.exec_(event.globalPos())
 
         if action == text_action:
             self._logger.debug('_rightclick_menu selected={}'.format(selected))
