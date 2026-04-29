@@ -1,0 +1,12 @@
+Source: ros-lyrical-rqt-msg
+Section: misc
+Priority: optional
+Maintainer: Brandon Ong <brandon@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-lyrical-ament-flake8 <!nocheck>, ros-lyrical-ament-xmllint <!nocheck>, ros-lyrical-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://wiki.ros.org/rqt_msg
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-rqt-msg
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-lyrical-ament-index-python, ros-lyrical-python-qt-binding (>= 0.2.19), ros-lyrical-rclpy, ros-lyrical-rosidl-runtime-py, ros-lyrical-rqt-console, ros-lyrical-rqt-gui, ros-lyrical-rqt-gui-py, ros-lyrical-rqt-py-common, ros-lyrical-ros-workspace
+Description: A Python GUI plugin for introspecting available ROS message types.
