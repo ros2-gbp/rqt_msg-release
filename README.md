@@ -1,3 +1,26 @@
+## rqt_msg (rolling) - 2.0.0-1
+
+The packages in the `rqt_msg` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling --track rolling rqt_msg` on `Wed, 06 May 2026 15:07:38 -0000`
+
+The `rqt_msg` package was released.
+
+Version of package(s) in repository `rqt_msg`:
+
+- upstream repository: https://github.com/ros-visualization/rqt_msg.git
+- release repository: https://github.com/ros2-gbp/rqt_msg-release.git
+- rosdistro version: `1.7.2-2`
+- old version: `1.7.2-2`
+- new version: `2.0.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## rqt_msg (kilted) - 1.6.1-1
 
 The packages in the `rqt_msg` repository were released into the `kilted` distro by running `/usr/bin/bloom-release --rosdistro kilted --track kilted rqt_msg` on `Mon, 13 Apr 2026 11:20:44 -0000`
