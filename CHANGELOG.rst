@@ -2,13 +2,10 @@
 Changelog for package rqt_msg
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.0.1 (2026-06-16)
+1.7.3 (2026-06-16)
 ------------------
-* Use logger.warning(), f-string and super() (`#28 <https://github.com/ros-visualization/rqt_msg/issues/28>`_)
-* Contributors: Alejandro Hernández Cordero
-
-2.0.0 (2026-05-06)
-------------------
+* Use logger.warning(), f-string and super() (backport `#28 <https://github.com/ros-visualization/rqt_msg/issues/28>`_) (`#29 <https://github.com/ros-visualization/rqt_msg/issues/29>`_)
+* Contributors: mergify[bot]
 
 1.7.2 (2026-04-13)
 ------------------
