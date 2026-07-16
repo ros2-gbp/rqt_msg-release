@@ -2,19 +2,22 @@
 Changelog for package rqt_msg
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.6.2 (2026-07-16)
+1.5.3 (2026-07-16)
 ------------------
-* Visualize constants (backport `#30 <https://github.com/ros-visualization/rqt_msg/issues/30>`_) (`#32 <https://github.com/ros-visualization/rqt_msg/issues/32>`_)
+* Visualize constants (backport `#30 <https://github.com/ros-visualization/rqt_msg/issues/30>`_) (`#33 <https://github.com/ros-visualization/rqt_msg/issues/33>`_)
 * Contributors: mergify[bot]
 
-1.6.1 (2026-04-13)
+1.5.2 (2026-01-21)
 ------------------
-* fix setuptools deprecations (backport `#23 <https://github.com/ros-visualization/rqt_msg/issues/23>`_) (`#24 <https://github.com/ros-visualization/rqt_msg/issues/24>`_)
-* Remove CODEOWNERS (`#20 <https://github.com/ros-visualization/rqt_msg/issues/20>`_)
-* Contributors: Alejandro Hernández Cordero, mergify[bot]
-
-1.6.0 (2024-04-26)
-------------------
+* fix setuptools deprecations (backport `#23 <https://github.com/ros-visualization/rqt_msg/issues/23>`_) (`#25 <https://github.com/ros-visualization/rqt_msg/issues/25>`_)
+  fix setuptools deprecations (`#23 <https://github.com/ros-visualization/rqt_msg/issues/23>`_)
+  (cherry picked from commit b5c456ee25b953b6a7f80d91223e8829c569ce23)
+  Co-authored-by: mosfet80 <10235105+mosfet80@users.noreply.github.com>
+* Remove CODEOWNERS (backport `#20 <https://github.com/ros-visualization/rqt_msg/issues/20>`_) (`#21 <https://github.com/ros-visualization/rqt_msg/issues/21>`_)
+  Remove CODEOWNERS (`#20 <https://github.com/ros-visualization/rqt_msg/issues/20>`_)
+  (cherry picked from commit d76adcec529ee7018d92c42045dce297d2a5bcfc)
+  Co-authored-by: Alejandro Hernández Cordero <ahcorde@gmail.com>
+* Contributors: mergify[bot]
 
 1.5.1 (2024-02-07)
 ------------------
