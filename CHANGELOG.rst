@@ -2,12 +2,64 @@
 Changelog for package rqt_msg
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.2.1 (2026-07-16)
+2.0.3 (2026-09-04)
 ------------------
-* Visualize constants (backport `#30 <https://github.com/ros-visualization/rqt_msg/issues/30>`_) (`#34 <https://github.com/ros-visualization/rqt_msg/issues/34>`_)
-* Contributors: mergify[bot]
+* Removed Qt5 support (`#35 <https://github.com/ros-visualization/rqt_msg/issues/35>`_)
+* Contributors: Alejandro Hernández Cordero
 
-1.2.0 (2022-09-13)
+2.0.2 (2026-07-16)
+------------------
+* Visualize constants (`#30 <https://github.com/ros-visualization/rqt_msg/issues/30>`_)
+* Contributors: Alejandro Hernández Cordero
+
+2.0.1 (2026-06-16)
+------------------
+* Use logger.warning(), f-string and super() (`#28 <https://github.com/ros-visualization/rqt_msg/issues/28>`_)
+* Contributors: Alejandro Hernández Cordero
+
+2.0.0 (2026-05-06)
+------------------
+
+1.7.2 (2026-04-13)
+------------------
+* Support Qt6 (`#27 <https://github.com/ros-visualization/rqt_msg/issues/27>`_)
+* Contributors: Alejandro Hernández Cordero
+
+1.7.1 (2025-07-30)
+------------------
+* fix setuptools deprecations (`#23 <https://github.com/ros-visualization/rqt_msg/issues/23>`_)
+* Contributors: mosfet80
+
+1.7.0 (2025-04-28)
+------------------
+* Remove CODEOWNERS (`#20 <https://github.com/ros-visualization/rqt_msg/issues/20>`_)
+* Contributors: Alejandro Hernández Cordero
+
+1.6.0 (2024-04-26)
+------------------
+
+1.5.1 (2024-02-07)
+------------------
+* Add in python3-pytest test dependency. (`#19 <https://github.com/ros-visualization/rqt_msg/issues/19>`_)
+* Contributors: Chris Lalancette
+
+1.5.0 (2023-06-07)
+------------------
+* Small cleanups to rqt_msg (`#16 <https://github.com/ros-visualization/rqt_msg/issues/16>`_)
+* Contributors: Chris Lalancette
+
+1.4.0 (2023-04-28)
+------------------
+
+1.3.1 (2023-02-14)
+------------------
+* [rolling] Update maintainers - 2022-11-07 (`#17 <https://github.com/ros-visualization/rqt_msg/issues/17>`_)
+* Contributors: Audrow Nash
+
+1.3.0 (2022-09-13)
+------------------
+
+1.1.0 (2022-05-10)
 ------------------
 
 1.0.6 (2022-04-06)
